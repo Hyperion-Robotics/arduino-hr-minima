@@ -16,8 +16,8 @@
           "category": "Contributed",
           "url": "https://github.com/Hyperion-Robotics/arduino-hr-minima/releases/download/v1.0.0/hr-minima-1.0.0.zip",
           "archiveFileName": "hr-minima-1.0.0.zip",
-          "checksum": "SHA-256:PASTE_64_CHAR_HASH_HERE",
-          "size": "PASTE_BYTE_SIZE_HERE",
+          "checksum": "SHA-256:a75227457bf7860f81b2ce7423a09305fb0fbddb6f2de569f8d47df9df4c2b72",
+          "size": "6499",
           "boards": [
             { "name": "Hyperion Robotics HR-Minima" }
           ],
