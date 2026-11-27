@@ -1,0 +1,472 @@
+menu.BoardModel=Model
+menu.variantchip=Chip Variant
+menu.flash=Flash Size
+menu.psramcs=PSRAM CS
+menu.psram=PSRAM Size
+menu.psramfreq=PSRAM Speed
+menu.freq=CPU Speed
+menu.arch=CPU Architecture
+menu.opt=Optimize
+menu.os=Operating System
+menu.profile=Profiling
+menu.rtti=RTTI
+menu.stackprotect=Stack Protector
+menu.exceptions=C++ Exceptions
+menu.dbgport=Debug Port
+menu.dbglvl=Debug Level
+menu.boot2=Boot Stage 2
+menu.wificountry=WiFi Region
+menu.usbstack=USB Stack
+menu.espwifitype=ESP Wifi Type
+menu.ipbtstack=IP/Bluetooth Stack
+menu.uploadmethod=Upload Method
+
+
+
+
+
+# -----------------------------------
+# Generic RP2350
+# -----------------------------------
+hr_minima.name=Hyperion Robotics HR-Minima
+hr_minima.vid.0=0x2e8a
+hr_minima.pid.0=0xf00f
+hr_minima.vid.1=0x2e8a
+hr_minima.pid.1=0xf10f
+hr_minima.upload_port.0.vid=0x2e8a
+hr_minima.upload_port.0.pid=0xf00f
+hr_minima.upload_port.1.vid=0x2e8a
+hr_minima.upload_port.1.pid=0xf10f
+hr_minima.build.usbvid=-DUSBD_VID=0x2e8a
+hr_minima.build.usbpid=-DUSBD_PID=0xf00f
+hr_minima.build.usbpwr=-DUSBD_MAX_POWER_MA=250
+hr_minima.build.board=HYPERION_HR_MINIMA
+hr_minima.build.variant=hr_minima
+hr_minima.upload.maximum_size=16777216
+hr_minima.upload.wait_for_upload_port=true
+hr_minima.upload.erase_cmd=
+hr_minima.serial.disableDTR=false
+hr_minima.serial.disableRTS=false
+hr_minima.build.f_cpu=125000000
+hr_minima.build.led=
+hr_minima.build.core=rp2040:rp2040
+hr_minima.build.ldscript=memmap_default.ld
+hr_minima.build.boot2=none
+hr_minima.build.usb_manufacturer="Hyperion Robotics"
+hr_minima.build.usb_product="HR-Minima"
+hr_minima.menu.flash.2097152_0=2MB (no FS)
+hr_minima.menu.flash.2097152_0.upload.maximum_size=2088960
+hr_minima.menu.flash.2097152_0.build.flash_total=2097152
+hr_minima.menu.flash.2097152_0.build.flash_length=2088960
+hr_minima.menu.flash.2097152_0.build.eeprom_start=270524416
+hr_minima.menu.flash.2097152_0.build.fs_start=270524416
+hr_minima.menu.flash.2097152_0.build.fs_end=270524416
+hr_minima.menu.flash.2097152_65536=2MB (Sketch: 1984KB, FS: 64KB)
+hr_minima.menu.flash.2097152_65536.upload.maximum_size=2023424
+hr_minima.menu.flash.2097152_65536.build.flash_total=2097152
+hr_minima.menu.flash.2097152_65536.build.flash_length=2023424
+hr_minima.menu.flash.2097152_65536.build.eeprom_start=270524416
+hr_minima.menu.flash.2097152_65536.build.fs_start=270458880
+hr_minima.menu.flash.2097152_65536.build.fs_end=270524416
+hr_minima.menu.flash.2097152_131072=2MB (Sketch: 1920KB, FS: 128KB)
+hr_minima.menu.flash.2097152_131072.upload.maximum_size=1957888
+hr_minima.menu.flash.2097152_131072.build.flash_total=2097152
+hr_minima.menu.flash.2097152_131072.build.flash_length=1957888
+hr_minima.menu.flash.2097152_131072.build.eeprom_start=270524416
+hr_minima.menu.flash.2097152_131072.build.fs_start=270393344
+hr_minima.menu.flash.2097152_131072.build.fs_end=270524416
+hr_minima.menu.flash.2097152_262144=2MB (Sketch: 1792KB, FS: 256KB)
+hr_minima.menu.flash.2097152_262144.upload.maximum_size=1826816
+hr_minima.menu.flash.2097152_262144.build.flash_total=2097152
+hr_minima.menu.flash.2097152_262144.build.flash_length=1826816
+hr_minima.menu.flash.2097152_262144.build.eeprom_start=270524416
+hr_minima.menu.flash.2097152_262144.build.fs_start=270262272
+hr_minima.menu.flash.2097152_262144.build.fs_end=270524416
+hr_minima.menu.flash.2097152_524288=2MB (Sketch: 1536KB, FS: 512KB)
+hr_minima.menu.flash.2097152_524288.upload.maximum_size=1564672
+hr_minima.menu.flash.2097152_524288.build.flash_total=2097152
+hr_minima.menu.flash.2097152_524288.build.flash_length=1564672
+hr_minima.menu.flash.2097152_524288.build.eeprom_start=270524416
+hr_minima.menu.flash.2097152_524288.build.fs_start=270000128
+hr_minima.menu.flash.2097152_524288.build.fs_end=270524416
+hr_minima.menu.flash.2097152_1048576=2MB (Sketch: 1MB, FS: 1MB)
+hr_minima.menu.flash.2097152_1048576.upload.maximum_size=1040384
+hr_minima.menu.flash.2097152_1048576.build.flash_total=2097152
+hr_minima.menu.flash.2097152_1048576.build.flash_length=1040384
+hr_minima.menu.flash.2097152_1048576.build.eeprom_start=270524416
+hr_minima.menu.flash.2097152_1048576.build.fs_start=269475840
+hr_minima.menu.flash.2097152_1048576.build.fs_end=270524416
+hr_minima.menu.flash.4194304_0=4MB (no FS)
+hr_minima.menu.flash.4194304_0.upload.maximum_size=4186112
+hr_minima.menu.flash.4194304_0.build.flash_total=4194304
+hr_minima.menu.flash.4194304_0.build.flash_length=4186112
+hr_minima.menu.flash.4194304_0.build.eeprom_start=272621568
+hr_minima.menu.flash.4194304_0.build.fs_start=272621568
+hr_minima.menu.flash.4194304_0.build.fs_end=272621568
+hr_minima.menu.flash.4194304_3145728=4MB (Sketch: 1MB, FS: 3MB)
+hr_minima.menu.flash.4194304_3145728.upload.maximum_size=1040384
+hr_minima.menu.flash.4194304_3145728.build.flash_total=4194304
+hr_minima.menu.flash.4194304_3145728.build.flash_length=1040384
+hr_minima.menu.flash.4194304_3145728.build.eeprom_start=272621568
+hr_minima.menu.flash.4194304_3145728.build.fs_start=269475840
+hr_minima.menu.flash.4194304_3145728.build.fs_end=272621568
+hr_minima.menu.flash.4194304_2097152=4MB (Sketch: 2MB, FS: 2MB)
+hr_minima.menu.flash.4194304_2097152.upload.maximum_size=2088960
+hr_minima.menu.flash.4194304_2097152.build.flash_total=4194304
+hr_minima.menu.flash.4194304_2097152.build.flash_length=2088960
+hr_minima.menu.flash.4194304_2097152.build.eeprom_start=272621568
+hr_minima.menu.flash.4194304_2097152.build.fs_start=270524416
+hr_minima.menu.flash.4194304_2097152.build.fs_end=272621568
+hr_minima.menu.flash.8388608_0=8MB (no FS)
+hr_minima.menu.flash.8388608_0.upload.maximum_size=8380416
+hr_minima.menu.flash.8388608_0.build.flash_total=8388608
+hr_minima.menu.flash.8388608_0.build.flash_length=8380416
+hr_minima.menu.flash.8388608_0.build.eeprom_start=276815872
+hr_minima.menu.flash.8388608_0.build.fs_start=276815872
+hr_minima.menu.flash.8388608_0.build.fs_end=276815872
+hr_minima.menu.flash.8388608_7340032=8MB (Sketch: 1MB, FS: 7MB)
+hr_minima.menu.flash.8388608_7340032.upload.maximum_size=1040384
+hr_minima.menu.flash.8388608_7340032.build.flash_total=8388608
+hr_minima.menu.flash.8388608_7340032.build.flash_length=1040384
+hr_minima.menu.flash.8388608_7340032.build.eeprom_start=276815872
+hr_minima.menu.flash.8388608_7340032.build.fs_start=269475840
+hr_minima.menu.flash.8388608_7340032.build.fs_end=276815872
+hr_minima.menu.flash.8388608_4194304=8MB (Sketch: 4MB, FS: 4MB)
+hr_minima.menu.flash.8388608_4194304.upload.maximum_size=4186112
+hr_minima.menu.flash.8388608_4194304.build.flash_total=8388608
+hr_minima.menu.flash.8388608_4194304.build.flash_length=4186112
+hr_minima.menu.flash.8388608_4194304.build.eeprom_start=276815872
+hr_minima.menu.flash.8388608_4194304.build.fs_start=272621568
+hr_minima.menu.flash.8388608_4194304.build.fs_end=276815872
+hr_minima.menu.flash.8388608_2097152=8MB (Sketch: 6MB, FS: 2MB)
+hr_minima.menu.flash.8388608_2097152.upload.maximum_size=6283264
+hr_minima.menu.flash.8388608_2097152.build.flash_total=8388608
+hr_minima.menu.flash.8388608_2097152.build.flash_length=6283264
+hr_minima.menu.flash.8388608_2097152.build.eeprom_start=276815872
+hr_minima.menu.flash.8388608_2097152.build.fs_start=274718720
+hr_minima.menu.flash.8388608_2097152.build.fs_end=276815872
+hr_minima.menu.flash.16777216_0=16MB (no FS)
+hr_minima.menu.flash.16777216_0.upload.maximum_size=16769024
+hr_minima.menu.flash.16777216_0.build.flash_total=16777216
+hr_minima.menu.flash.16777216_0.build.flash_length=16769024
+hr_minima.menu.flash.16777216_0.build.eeprom_start=285204480
+hr_minima.menu.flash.16777216_0.build.fs_start=285204480
+hr_minima.menu.flash.16777216_0.build.fs_end=285204480
+hr_minima.menu.flash.16777216_15728640=16MB (Sketch: 1MB, FS: 15MB)
+hr_minima.menu.flash.16777216_15728640.upload.maximum_size=1040384
+hr_minima.menu.flash.16777216_15728640.build.flash_total=16777216
+hr_minima.menu.flash.16777216_15728640.build.flash_length=1040384
+hr_minima.menu.flash.16777216_15728640.build.eeprom_start=285204480
+hr_minima.menu.flash.16777216_15728640.build.fs_start=269475840
+hr_minima.menu.flash.16777216_15728640.build.fs_end=285204480
+hr_minima.menu.flash.16777216_14680064=16MB (Sketch: 2MB, FS: 14MB)
+hr_minima.menu.flash.16777216_14680064.upload.maximum_size=2088960
+hr_minima.menu.flash.16777216_14680064.build.flash_total=16777216
+hr_minima.menu.flash.16777216_14680064.build.flash_length=2088960
+hr_minima.menu.flash.16777216_14680064.build.eeprom_start=285204480
+hr_minima.menu.flash.16777216_14680064.build.fs_start=270524416
+hr_minima.menu.flash.16777216_14680064.build.fs_end=285204480
+hr_minima.menu.flash.16777216_12582912=16MB (Sketch: 4MB, FS: 12MB)
+hr_minima.menu.flash.16777216_12582912.upload.maximum_size=4186112
+hr_minima.menu.flash.16777216_12582912.build.flash_total=16777216
+hr_minima.menu.flash.16777216_12582912.build.flash_length=4186112
+hr_minima.menu.flash.16777216_12582912.build.eeprom_start=285204480
+hr_minima.menu.flash.16777216_12582912.build.fs_start=272621568
+hr_minima.menu.flash.16777216_12582912.build.fs_end=285204480
+hr_minima.menu.flash.16777216_8388608=16MB (Sketch: 8MB, FS: 8MB)
+hr_minima.menu.flash.16777216_8388608.upload.maximum_size=8380416
+hr_minima.menu.flash.16777216_8388608.build.flash_total=16777216
+hr_minima.menu.flash.16777216_8388608.build.flash_length=8380416
+hr_minima.menu.flash.16777216_8388608.build.eeprom_start=285204480
+hr_minima.menu.flash.16777216_8388608.build.fs_start=276815872
+hr_minima.menu.flash.16777216_8388608.build.fs_end=285204480
+hr_minima.menu.flash.16777216_4194304=16MB (Sketch: 12MB, FS: 4MB)
+hr_minima.menu.flash.16777216_4194304.upload.maximum_size=12574720
+hr_minima.menu.flash.16777216_4194304.build.flash_total=16777216
+hr_minima.menu.flash.16777216_4194304.build.flash_length=12574720
+hr_minima.menu.flash.16777216_4194304.build.eeprom_start=285204480
+hr_minima.menu.flash.16777216_4194304.build.fs_start=281010176
+hr_minima.menu.flash.16777216_4194304.build.fs_end=285204480
+hr_minima.menu.flash.16777216_2097152=16MB (Sketch: 14MB, FS: 2MB)
+hr_minima.menu.flash.16777216_2097152.upload.maximum_size=14671872
+hr_minima.menu.flash.16777216_2097152.build.flash_total=16777216
+hr_minima.menu.flash.16777216_2097152.build.flash_length=14671872
+hr_minima.menu.flash.16777216_2097152.build.eeprom_start=285204480
+hr_minima.menu.flash.16777216_2097152.build.fs_start=283107328
+hr_minima.menu.flash.16777216_2097152.build.fs_end=285204480
+hr_minima.menu.arch.arm=ARM
+hr_minima.menu.arch.arm.build.chip=rp2350
+hr_minima.menu.arch.arm.build.toolchain=arm-none-eabi
+hr_minima.menu.arch.arm.build.toolchainpkg=pqt-gcc
+hr_minima.menu.arch.arm.build.toolchainopts=-mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse
+hr_minima.menu.arch.arm.build.uf2family=--family rp2350-arm-s --abs-block
+hr_minima.menu.arch.arm.build.mcu=cortex-m33
+hr_minima.menu.arch.riscv=RISC-V
+hr_minima.menu.arch.riscv.build.chip=rp2350-riscv
+hr_minima.menu.arch.riscv.build.toolchain=riscv32-unknown-elf
+hr_minima.menu.arch.riscv.build.toolchainpkg=pqt-gcc-riscv
+hr_minima.menu.arch.riscv.build.toolchainopts=-march=rv32imac_zicsr_zifencei_zba_zbb_zbs_zbkb -mabi=ilp32
+hr_minima.menu.arch.riscv.build.uf2family=--family rp2350-riscv --abs-block
+hr_minima.menu.arch.riscv.build.mcu=rv32imac
+hr_minima.menu.freq.150=150 MHz
+hr_minima.menu.freq.150.build.f_cpu=150000000L
+hr_minima.menu.freq.50=50 MHz
+hr_minima.menu.freq.50.build.f_cpu=50000000L
+hr_minima.menu.freq.100=100 MHz
+hr_minima.menu.freq.100.build.f_cpu=100000000L
+hr_minima.menu.freq.120=120 MHz
+hr_minima.menu.freq.120.build.f_cpu=120000000L
+hr_minima.menu.freq.125=125 MHz
+hr_minima.menu.freq.125.build.f_cpu=125000000L
+hr_minima.menu.freq.128=128 MHz
+hr_minima.menu.freq.128.build.f_cpu=128000000L
+hr_minima.menu.freq.133=133 MHz
+hr_minima.menu.freq.133.build.f_cpu=133000000L
+hr_minima.menu.freq.176=176 MHz (Overclock)
+hr_minima.menu.freq.176.build.f_cpu=176000000L
+hr_minima.menu.freq.200=200 MHz (Overclock)
+hr_minima.menu.freq.200.build.f_cpu=200000000L
+hr_minima.menu.freq.225=225 MHz (Overclock)
+hr_minima.menu.freq.225.build.f_cpu=225000000L
+hr_minima.menu.freq.240=240 MHz (Overclock)
+hr_minima.menu.freq.240.build.f_cpu=240000000L
+hr_minima.menu.freq.250=250 MHz (Overclock)
+hr_minima.menu.freq.250.build.f_cpu=250000000L
+hr_minima.menu.freq.276=276 MHz (Overclock)
+hr_minima.menu.freq.276.build.f_cpu=276000000L
+hr_minima.menu.freq.300=300 MHz (Overclock)
+hr_minima.menu.freq.300.build.f_cpu=300000000L
+hr_minima.menu.variantchip.RP2350A=RP2350A
+hr_minima.menu.variantchip.RP2350A.build.variantdefines=-D__PICO_RP2350A=1
+hr_minima.menu.variantchip.RP2350B=RP2350B
+hr_minima.menu.variantchip.RP2350B.build.variantdefines=-D__PICO_RP2350A=0
+hr_minima.menu.psramcs.GPIOnone=None
+hr_minima.menu.psramcs.GPIOnone.build.psram_cs=
+hr_minima.menu.psramcs.GPIO0=GPIO 0
+hr_minima.menu.psramcs.GPIO0.build.psram_cs=-DRP2350_PSRAM_CS=0
+hr_minima.menu.psramcs.GPIO1=GPIO 1
+hr_minima.menu.psramcs.GPIO1.build.psram_cs=-DRP2350_PSRAM_CS=1
+hr_minima.menu.psramcs.GPIO2=GPIO 2
+hr_minima.menu.psramcs.GPIO2.build.psram_cs=-DRP2350_PSRAM_CS=2
+hr_minima.menu.psramcs.GPIO3=GPIO 3
+hr_minima.menu.psramcs.GPIO3.build.psram_cs=-DRP2350_PSRAM_CS=3
+hr_minima.menu.psramcs.GPIO4=GPIO 4
+hr_minima.menu.psramcs.GPIO4.build.psram_cs=-DRP2350_PSRAM_CS=4
+hr_minima.menu.psramcs.GPIO5=GPIO 5
+hr_minima.menu.psramcs.GPIO5.build.psram_cs=-DRP2350_PSRAM_CS=5
+hr_minima.menu.psramcs.GPIO6=GPIO 6
+hr_minima.menu.psramcs.GPIO6.build.psram_cs=-DRP2350_PSRAM_CS=6
+hr_minima.menu.psramcs.GPIO7=GPIO 7
+hr_minima.menu.psramcs.GPIO7.build.psram_cs=-DRP2350_PSRAM_CS=7
+hr_minima.menu.psramcs.GPIO8=GPIO 8
+hr_minima.menu.psramcs.GPIO8.build.psram_cs=-DRP2350_PSRAM_CS=8
+hr_minima.menu.psramcs.GPIO9=GPIO 9
+hr_minima.menu.psramcs.GPIO9.build.psram_cs=-DRP2350_PSRAM_CS=9
+hr_minima.menu.psramcs.GPIO10=GPIO 10
+hr_minima.menu.psramcs.GPIO10.build.psram_cs=-DRP2350_PSRAM_CS=10
+hr_minima.menu.psramcs.GPIO11=GPIO 11
+hr_minima.menu.psramcs.GPIO11.build.psram_cs=-DRP2350_PSRAM_CS=11
+hr_minima.menu.psramcs.GPIO12=GPIO 12
+hr_minima.menu.psramcs.GPIO12.build.psram_cs=-DRP2350_PSRAM_CS=12
+hr_minima.menu.psramcs.GPIO13=GPIO 13
+hr_minima.menu.psramcs.GPIO13.build.psram_cs=-DRP2350_PSRAM_CS=13
+hr_minima.menu.psramcs.GPIO14=GPIO 14
+hr_minima.menu.psramcs.GPIO14.build.psram_cs=-DRP2350_PSRAM_CS=14
+hr_minima.menu.psramcs.GPIO15=GPIO 15
+hr_minima.menu.psramcs.GPIO15.build.psram_cs=-DRP2350_PSRAM_CS=15
+hr_minima.menu.psramcs.GPIO16=GPIO 16
+hr_minima.menu.psramcs.GPIO16.build.psram_cs=-DRP2350_PSRAM_CS=16
+hr_minima.menu.psramcs.GPIO17=GPIO 17
+hr_minima.menu.psramcs.GPIO17.build.psram_cs=-DRP2350_PSRAM_CS=17
+hr_minima.menu.psramcs.GPIO18=GPIO 18
+hr_minima.menu.psramcs.GPIO18.build.psram_cs=-DRP2350_PSRAM_CS=18
+hr_minima.menu.psramcs.GPIO19=GPIO 19
+hr_minima.menu.psramcs.GPIO19.build.psram_cs=-DRP2350_PSRAM_CS=19
+hr_minima.menu.psramcs.GPIO20=GPIO 20
+hr_minima.menu.psramcs.GPIO20.build.psram_cs=-DRP2350_PSRAM_CS=20
+hr_minima.menu.psramcs.GPIO21=GPIO 21
+hr_minima.menu.psramcs.GPIO21.build.psram_cs=-DRP2350_PSRAM_CS=21
+hr_minima.menu.psramcs.GPIO22=GPIO 22
+hr_minima.menu.psramcs.GPIO22.build.psram_cs=-DRP2350_PSRAM_CS=22
+hr_minima.menu.psramcs.GPIO23=GPIO 23
+hr_minima.menu.psramcs.GPIO23.build.psram_cs=-DRP2350_PSRAM_CS=23
+hr_minima.menu.psramcs.GPIO24=GPIO 24
+hr_minima.menu.psramcs.GPIO24.build.psram_cs=-DRP2350_PSRAM_CS=24
+hr_minima.menu.psramcs.GPIO25=GPIO 25
+hr_minima.menu.psramcs.GPIO25.build.psram_cs=-DRP2350_PSRAM_CS=25
+hr_minima.menu.psramcs.GPIO26=GPIO 26
+hr_minima.menu.psramcs.GPIO26.build.psram_cs=-DRP2350_PSRAM_CS=26
+hr_minima.menu.psramcs.GPIO27=GPIO 27
+hr_minima.menu.psramcs.GPIO27.build.psram_cs=-DRP2350_PSRAM_CS=27
+hr_minima.menu.psramcs.GPIO28=GPIO 28
+hr_minima.menu.psramcs.GPIO28.build.psram_cs=-DRP2350_PSRAM_CS=28
+hr_minima.menu.psramcs.GPIO29=GPIO 29
+hr_minima.menu.psramcs.GPIO29.build.psram_cs=-DRP2350_PSRAM_CS=29
+hr_minima.menu.psramcs.GPIO30=GPIO 30
+hr_minima.menu.psramcs.GPIO30.build.psram_cs=-DRP2350_PSRAM_CS=30
+hr_minima.menu.psramcs.GPIO31=GPIO 31
+hr_minima.menu.psramcs.GPIO31.build.psram_cs=-DRP2350_PSRAM_CS=31
+hr_minima.menu.psramcs.GPIO32=GPIO 32
+hr_minima.menu.psramcs.GPIO32.build.psram_cs=-DRP2350_PSRAM_CS=32
+hr_minima.menu.psramcs.GPIO33=GPIO 33
+hr_minima.menu.psramcs.GPIO33.build.psram_cs=-DRP2350_PSRAM_CS=33
+hr_minima.menu.psramcs.GPIO34=GPIO 34
+hr_minima.menu.psramcs.GPIO34.build.psram_cs=-DRP2350_PSRAM_CS=34
+hr_minima.menu.psramcs.GPIO35=GPIO 35
+hr_minima.menu.psramcs.GPIO35.build.psram_cs=-DRP2350_PSRAM_CS=35
+hr_minima.menu.psramcs.GPIO36=GPIO 36
+hr_minima.menu.psramcs.GPIO36.build.psram_cs=-DRP2350_PSRAM_CS=36
+hr_minima.menu.psramcs.GPIO37=GPIO 37
+hr_minima.menu.psramcs.GPIO37.build.psram_cs=-DRP2350_PSRAM_CS=37
+hr_minima.menu.psramcs.GPIO38=GPIO 38
+hr_minima.menu.psramcs.GPIO38.build.psram_cs=-DRP2350_PSRAM_CS=38
+hr_minima.menu.psramcs.GPIO39=GPIO 39
+hr_minima.menu.psramcs.GPIO39.build.psram_cs=-DRP2350_PSRAM_CS=39
+hr_minima.menu.psramcs.GPIO40=GPIO 40
+hr_minima.menu.psramcs.GPIO40.build.psram_cs=-DRP2350_PSRAM_CS=40
+hr_minima.menu.psramcs.GPIO41=GPIO 41
+hr_minima.menu.psramcs.GPIO41.build.psram_cs=-DRP2350_PSRAM_CS=41
+hr_minima.menu.psramcs.GPIO42=GPIO 42
+hr_minima.menu.psramcs.GPIO42.build.psram_cs=-DRP2350_PSRAM_CS=42
+hr_minima.menu.psramcs.GPIO43=GPIO 43
+hr_minima.menu.psramcs.GPIO43.build.psram_cs=-DRP2350_PSRAM_CS=43
+hr_minima.menu.psramcs.GPIO44=GPIO 44
+hr_minima.menu.psramcs.GPIO44.build.psram_cs=-DRP2350_PSRAM_CS=44
+hr_minima.menu.psramcs.GPIO45=GPIO 45
+hr_minima.menu.psramcs.GPIO45.build.psram_cs=-DRP2350_PSRAM_CS=45
+hr_minima.menu.psramcs.GPIO46=GPIO 46
+hr_minima.menu.psramcs.GPIO46.build.psram_cs=-DRP2350_PSRAM_CS=46
+hr_minima.menu.psramcs.GPIO47=GPIO 47
+hr_minima.menu.psramcs.GPIO47.build.psram_cs=-DRP2350_PSRAM_CS=47
+hr_minima.menu.psram.0mb=0MByte PSRAM
+hr_minima.menu.psram.0mb.build.psram_length=0x000000
+hr_minima.menu.psram.2mb=2MByte PSRAM
+hr_minima.menu.psram.2mb.build.psram_length=0x200000
+hr_minima.menu.psram.4mb=4MByte PSRAM
+hr_minima.menu.psram.4mb.build.psram_length=0x400000
+hr_minima.menu.psram.8mb=8MByte PSRAM
+hr_minima.menu.psram.8mb.build.psram_length=0x800000
+hr_minima.menu.psram.16mb=16MByte PSRAM
+hr_minima.menu.psram.16mb.build.psram_length=0x1600000
+hr_minima.menu.psramfreq.freq104=104 MHz
+hr_minima.menu.psramfreq.freq104.build.psram_freq=-DRP2350_PSRAM_MAX_SCK_HZ=104000000
+hr_minima.menu.psramfreq.freq109=109 MHz
+hr_minima.menu.psramfreq.freq109.build.psram_freq=-DRP2350_PSRAM_MAX_SCK_HZ=109000000
+hr_minima.menu.psramfreq.freq133=133 MHz
+hr_minima.menu.psramfreq.freq133.build.psram_freq=-DRP2350_PSRAM_MAX_SCK_HZ=133000000
+hr_minima.menu.opt.Small=Small (-Os) (standard)
+hr_minima.menu.opt.Small.build.flags.optimize=-Os
+hr_minima.menu.opt.Optimize=Optimize (-O)
+hr_minima.menu.opt.Optimize.build.flags.optimize=-O
+hr_minima.menu.opt.Optimize2=Optimize More (-O2)
+hr_minima.menu.opt.Optimize2.build.flags.optimize=-O2
+hr_minima.menu.opt.Optimize3=Optimize Even More (-O3)
+hr_minima.menu.opt.Optimize3.build.flags.optimize=-O3
+hr_minima.menu.opt.Fast=Fast (-Ofast) (maybe slower)
+hr_minima.menu.opt.Fast.build.flags.optimize=-Ofast
+hr_minima.menu.opt.Debug=Debug (-Og)
+hr_minima.menu.opt.Debug.build.flags.optimize=-Og
+hr_minima.menu.opt.Disabled=Disabled (-O0)
+hr_minima.menu.opt.Disabled.build.flags.optimize=-O0
+hr_minima.menu.os.none=None
+hr_minima.menu.os.none.build.os=
+hr_minima.menu.os.freertos=FreeRTOS SMP
+hr_minima.menu.os.freertos.build.os=-D__FREERTOS
+hr_minima.menu.profile.Disabled=Disabled
+hr_minima.menu.profile.Disabled.build.flags.profile=
+hr_minima.menu.profile.Enabled=Enabled
+hr_minima.menu.profile.Enabled.build.flags.profile=-pg -D__PROFILE
+hr_minima.menu.rtti.Disabled=Disabled
+hr_minima.menu.rtti.Disabled.build.flags.rtti=-fno-rtti
+hr_minima.menu.rtti.Enabled=Enabled
+hr_minima.menu.rtti.Enabled.build.flags.rtti=
+hr_minima.menu.stackprotect.Disabled=Disabled
+hr_minima.menu.stackprotect.Disabled.build.flags.stackprotect=
+hr_minima.menu.stackprotect.Enabled=Enabled
+hr_minima.menu.stackprotect.Enabled.build.flags.stackprotect=-fstack-protector-all
+hr_minima.menu.exceptions.Disabled=Disabled
+hr_minima.menu.exceptions.Disabled.build.flags.exceptions=-fno-exceptions
+hr_minima.menu.exceptions.Disabled.build.flags.libstdcpp=-lstdc++
+hr_minima.menu.exceptions.Enabled=Enabled
+hr_minima.menu.exceptions.Enabled.build.flags.exceptions=-fexceptions
+hr_minima.menu.exceptions.Enabled.build.flags.libstdcpp=-lstdc++-exc
+hr_minima.menu.dbgport.Disabled=Disabled
+hr_minima.menu.dbgport.Disabled.build.debug_port=
+hr_minima.menu.dbgport.Serial=Serial
+hr_minima.menu.dbgport.Serial.build.debug_port=-DDEBUG_RP2040_PORT=Serial
+hr_minima.menu.dbgport.Serial1=Serial1
+hr_minima.menu.dbgport.Serial1.build.debug_port=-DDEBUG_RP2040_PORT=Serial1
+hr_minima.menu.dbgport.Serial2=Serial2
+hr_minima.menu.dbgport.Serial2.build.debug_port=-DDEBUG_RP2040_PORT=Serial2
+hr_minima.menu.dbgport.SerialSemi=SerialSemi
+hr_minima.menu.dbgport.SerialSemi.build.debug_port=-DDEBUG_RP2040_PORT=SerialSemi
+hr_minima.menu.dbglvl.None=None
+hr_minima.menu.dbglvl.None.build.debug_level=
+hr_minima.menu.dbglvl.Core=Core
+hr_minima.menu.dbglvl.Core.build.debug_level=-DDEBUG_RP2040_CORE
+hr_minima.menu.dbglvl.SPI=SPI
+hr_minima.menu.dbglvl.SPI.build.debug_level=-DDEBUG_RP2040_SPI
+hr_minima.menu.dbglvl.Wire=Wire
+hr_minima.menu.dbglvl.Wire.build.debug_level=-DDEBUG_RP2040_WIRE
+hr_minima.menu.dbglvl.Bluetooth=Bluetooth
+hr_minima.menu.dbglvl.Bluetooth.build.debug_level=-DDEBUG_RP2040_BLUETOOTH
+hr_minima.menu.dbglvl.BLE=BLE
+hr_minima.menu.dbglvl.BLE.build.debug_level=-DDEBUG_RP2040_BLE
+hr_minima.menu.dbglvl.LWIP=LWIP
+hr_minima.menu.dbglvl.LWIP.build.debug_level=-DLWIP_DEBUG=1
+hr_minima.menu.dbglvl.All=All
+hr_minima.menu.dbglvl.All.build.debug_level=-DDEBUG_RP2040_WIRE -DDEBUG_RP2040_SPI -DDEBUG_RP2040_CORE -DDEBUG_RP2040_BLUETOOTH -DDEBUG_RP2040_BLE -DLWIP_DEBUG=1
+hr_minima.menu.dbglvl.NDEBUG=NDEBUG
+hr_minima.menu.dbglvl.NDEBUG.build.debug_level=-DNDEBUG
+hr_minima.menu.usbstack.picosdk=Pico SDK
+hr_minima.menu.usbstack.picosdk.build.usbstack_flags=
+hr_minima.menu.usbstack.tinyusb=Adafruit TinyUSB
+hr_minima.menu.usbstack.tinyusb.build.usbstack_flags=-DUSE_TINYUSB "-I{runtime.platform.path}/libraries/Adafruit_TinyUSB_Arduino/src/arduino"
+hr_minima.menu.usbstack.tinyusb_host=Adafruit TinyUSB Host (native)
+hr_minima.menu.usbstack.tinyusb_host.build.usbstack_flags=-DUSE_TINYUSB -DUSE_TINYUSB_HOST "-I{runtime.platform.path}/libraries/Adafruit_TinyUSB_Arduino/src/arduino"
+hr_minima.menu.usbstack.nousb=No USB
+hr_minima.menu.usbstack.nousb.build.usbstack_flags="-DNO_USB -DDISABLE_USB_SERIAL -I{runtime.platform.path}/tools/libpico"
+hr_minima.menu.ipbtstack.ipv4only=IPv4 Only
+hr_minima.menu.ipbtstack.ipv4only.build.libpicow=liblwip.a
+hr_minima.menu.ipbtstack.ipv4only.build.libpicowdefs=-DLWIP_IPV6=0 -DLWIP_IPV4=1
+hr_minima.menu.ipbtstack.ipv4ipv6=IPv4 + IPv6
+hr_minima.menu.ipbtstack.ipv4ipv6.build.libpicow=liblwip.a
+hr_minima.menu.ipbtstack.ipv4ipv6.build.libpicowdefs=-DLWIP_IPV6=1 -DLWIP_IPV4=1
+hr_minima.menu.ipbtstack.ipv4btcble=IPv4 + Bluetooth
+hr_minima.menu.ipbtstack.ipv4btcble.build.libpicow=liblwip-bt.a
+hr_minima.menu.ipbtstack.ipv4btcble.build.libpicowdefs=-DLWIP_IPV6=0 -DLWIP_IPV4=1 -DENABLE_CLASSIC=1 -DENABLE_BLE=1 -DCYW43_ENABLE_BLUETOOTH=1
+hr_minima.menu.ipbtstack.ipv4ipv6btcble=IPv4 + IPv6 + Bluetooth
+hr_minima.menu.ipbtstack.ipv4ipv6btcble.build.libpicow=liblwip-bt.a
+hr_minima.menu.ipbtstack.ipv4ipv6btcble.build.libpicowdefs=-DLWIP_IPV6=1 -DLWIP_IPV4=1 -DENABLE_CLASSIC=1 -DENABLE_BLE=1 -DCYW43_ENABLE_BLUETOOTH=1
+hr_minima.menu.ipbtstack.ipv4onlybig=IPv4 Only - 32K
+hr_minima.menu.ipbtstack.ipv4onlybig.build.libpicow=liblwip.a
+hr_minima.menu.ipbtstack.ipv4onlybig.build.libpicowdefs=-DLWIP_IPV6=0 -DLWIP_IPV4=1 -D__LWIP_MEMMULT=2
+hr_minima.menu.ipbtstack.ipv4ipv6big=IPv4 + IPv6 - 32K
+hr_minima.menu.ipbtstack.ipv4ipv6big.build.libpicow=liblwip.a
+hr_minima.menu.ipbtstack.ipv4ipv6big.build.libpicowdefs=-DLWIP_IPV6=1 -DLWIP_IPV4=1 -D__LWIP_MEMMULT=2
+hr_minima.menu.ipbtstack.ipv4btcblebig=IPv4 + Bluetooth - 32K
+hr_minima.menu.ipbtstack.ipv4btcblebig.build.libpicow=liblwip-bt.a
+hr_minima.menu.ipbtstack.ipv4btcblebig.build.libpicowdefs=-DLWIP_IPV6=0 -DLWIP_IPV4=1 -DENABLE_CLASSIC=1 -DENABLE_BLE=1 -DCYW43_ENABLE_BLUETOOTH=1 -D__LWIP_MEMMULT=2
+hr_minima.menu.ipbtstack.ipv4ipv6btcblebig=IPv4 + IPv6 + Bluetooth - 32K
+hr_minima.menu.ipbtstack.ipv4ipv6btcblebig.build.libpicow=liblwip-bt.a
+hr_minima.menu.ipbtstack.ipv4ipv6btcblebig.build.libpicowdefs=-DLWIP_IPV6=1 -DLWIP_IPV4=1 -DENABLE_CLASSIC=1 -DENABLE_BLE=1 -DCYW43_ENABLE_BLUETOOTH=1 -D__LWIP_MEMMULT=2
+hr_minima.menu.uploadmethod.default=Default (UF2)
+hr_minima.menu.uploadmethod.default.build.ram_length=512k
+hr_minima.menu.uploadmethod.default.build.debugscript=picoprobe_cmsis_dap.tcl
+hr_minima.menu.uploadmethod.default.upload.maximum_data_size=524288
+hr_minima.menu.uploadmethod.default.upload.tool=rp2040:uf2conv
+hr_minima.menu.uploadmethod.default.upload.tool.default=rp2040:uf2conv
+hr_minima.menu.uploadmethod.default.upload.tool.network=rp2040:uf2conv-network
+hr_minima.menu.uploadmethod.rp2040:picotool=rp2040:picotool
+hr_minima.menu.uploadmethod.rp2040:picotool.build.ram_length=512k
+hr_minima.menu.uploadmethod.rp2040:picotool.build.debugscript=picoprobe.tcl
+hr_minima.menu.uploadmethod.rp2040:picotool.build.picodebugflags=-DENABLE_rp2040:picotool_USB
+hr_minima.menu.uploadmethod.rp2040:picotool.upload.maximum_data_size=524288
+hr_minima.menu.uploadmethod.rp2040:picotool.upload.tool=rp2040:picotool
+hr_minima.menu.uploadmethod.rp2040:picotool.upload.tool.default=rp2040:picotool
+hr_minima.menu.uploadmethod.picoprobe_cmsis_dap=Picoprobe/Debugprobe (CMSIS-DAP)
+hr_minima.menu.uploadmethod.picoprobe_cmsis_dap.build.ram_length=512k
+hr_minima.menu.uploadmethod.picoprobe_cmsis_dap.build.debugscript=picoprobe_cmsis_dap.tcl
+hr_minima.menu.uploadmethod.picoprobe_cmsis_dap.upload.maximum_data_size=524288
+hr_minima.menu.uploadmethod.picoprobe_cmsis_dap.upload.tool=picoprobe_cmsis_dap
+hr_minima.menu.uploadmethod.picoprobe_cmsis_dap.upload.tool.default=picoprobe_cmsis_dap
